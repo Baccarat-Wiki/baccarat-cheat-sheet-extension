@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Baccarat Cheat Sheet | Third Card Rules</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400..600;1,400&family=Raleway:wght@900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+
+    <script src="common.js" defer></script>
+    <script src="third.js" defer></script>
+</head>
+<body>
+    <svg
+        xmlns="http://www.w3.org/2000/svg"
+        xmlns:xlink="http://www.w3.org/1999/xlink"
+        style="position: absolute; width: 0; height: 0"
+        aria-hidden="true"
+    >
+        <symbol id="icon-arrow" fill="none" viewBox="0 0 12 12">
+            <path fill="currentColor" d="m6.6 11.8 5.2-5.2c.3-.4.3-.8 0-1.1L6.6.2a.8.8 0 0 0-1.2 1.1l4 4H.7a.8.8 0 0 0 0 1.5h8.5l-3.9 3.9a.8.8 0 0 0 1.2 1Z"/>
+        </symbol>
+    </svg>
+
+    <header class="container">
+        <a href="https://baccarat.wiki/" class="external">
+            <img width="207" src="images/logo.png" alt="Baccarat Cheat Sheet logo">
+        </a>
+    </header>
+    <main class="container">
+        <h1>
+            <a href="index.html">
+                <span class="back-arrow">
+                    <svg width="12" height="12">
+                        <use xlink:href="#icon-arrow"></use>
+                        ⬅
+                    </svg>
+                </span>
+                Third Card Rules: Banker
+            </a>
+        </h1>
+
+        <p class="semibold">The rules for the third card for the banker are quite strict and can be confusing. Select the total points for each hand to see the next action, or download the complete chart.</p>
+
+        <div class="hands-select">
+            <div class="form-element">
+                <label for="third-player-hand">Player Hand</label>
+                <select id="third-player-hand">
+                    <option value="0" selected>0</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                </select>
+            </div>
+            <div class="form-element">
+                <label for="third-banker-hand">Banker Hand</label>
+                <select id="third-banker-hand">
+                    <option value="0" selected>0</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                </select>
+            </div>
+        </div>
+
+        <h2>Action Decision:</h2>
+        <div id="third-decision" class="third-decision undefined">???</div>
+
+
+        <p class="semibold">Get a detailed cheat sheet with all third card rules for quick access</p>
+
+    </main>
+    <aside class="container">
+
+        <div class="buttons-container">
+            <a href="third.html" class="btn btn-secondary">
+                <span class="back-arrow btn-arrow">
+                    <svg width="12" height="12">
+                        <use xlink:href="#icon-arrow"></use>
+                        ⬅
+                    </svg>
+                </span>
+                Back
+            </a>
+            <a href="https://baccarat.wiki/baccaratwiki-baccarat-third-card-rules.pdf" class="btn btn-primary external">
+                Get PDF
+                <span class="btn-arrow">
+                    <svg width="12" height="12">
+                        <use xlink:href="#icon-arrow"></use>
+                        ➡
+                    </svg>
+                </span>
+            </a>
+        </div>
+    </aside>
+
+</body>
+</html>
